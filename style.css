@@ -1,0 +1,13 @@
+/* Simple prototype styling: a little color, no images */
+body { font-family: Arial, sans-serif; color: #0b2a5b; background: #f4f8fd; margin: 0; line-height: 1.5; }
+header, footer { background: #0b2a5b; color: #fff; padding: 12px 20px; }
+header a, footer a { color: #fff; }
+header ul, footer ul { list-style: none; padding: 0; margin: 8px 0; display: flex; flex-wrap: wrap; gap: 16px; }
+nav a[aria-current="page"] { color: #fbc12c; font-weight: bold; }
+main { max-width: 1000px; margin: 0 auto; padding: 16px 20px; }
+h1, h2, h3 { color: #0b2a5b; }
+h1 { border-bottom: 4px solid #fbc12c; padding-bottom: 6px; }
+a { color: #1d5ba6; }
+section, article, details { border: 1px solid #c9d6e8; background: #fff; padding: 8px 14px; margin: 10px 0; }
+button, input[type="submit"] { background: #fbc12c; color: #0b2a5b; border: 0; padding: 8px 18px; font-weight: bold; cursor: pointer; }
+input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="search"], textarea { border: 1px solid #1d5ba6; padding: 5px; max-width: 100%; }
